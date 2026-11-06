@@ -22,11 +22,19 @@ As a result:
 | 01 | [Project brief](01-project-brief.md): problem, objectives, scope, assumptions | Done |
 | 02 | [Stakeholder register, power/interest map and RACI](02-stakeholders.md) | Done |
 | 03 | [As-is process map and pain-point log](03-as-is-process.md) | Done |
-| 04 | To-be process map | Next |
-| 05 | Business Requirements Document (BRD) | Next |
-| 06 | User stories with acceptance criteria | Next |
-| 07 | Requirements traceability matrix (RTM) | Next |
-| 08 | UAT plan and test scripts | Next |
+| 04 | [To-be process map and change summary](04-to-be-process.md) | Done |
+| 05 | [Business Requirements Document (BRD)](05-brd.md) | Done |
+| 06 | [User stories with acceptance criteria](06-user-stories.md) | Done |
+| 07 | [Requirements traceability matrix](07-rtm.md) ([CSV](07-rtm.csv)) | Done |
+| 08 | [UAT plan and test scripts](08-uat-plan.md) | Done |
+
+## Key outcomes of the analysis
+
+- **8 pain points** traced to 3 root causes: no single record of a return, hand-offs by email, and a process built around posting.
+- **15 business requirements**, each traced to its source (pain point or workshop), plus 6 non-functional requirements.
+- **15 user stories** across 6 epics, with 45 acceptance criteria.
+- **18 UAT test cases**, with full scripts for the 6 highest-risk ones.
+- Estimated refund time falls from **12 days to about 5**, because most of the current delay is waiting between teams, not the parcel in transit.
 
 ## Approach
 
