@@ -1,0 +1,22 @@
+req_id,requirement,priority,objective,source,user_stories,test_case_ids,test_status,uat_signoff,status
+BR-01,Start a return online,M,OBJ-01; OBJ-02,P1; W1,US-01,TC-01; TC-02,Not run,N,Agreed
+BR-02,Automatic eligibility check,M,OBJ-01,W1,US-02,TC-03,Not run,N,Agreed
+BR-03,Capture return reason,S,OBJ-04,W1; W3,US-03,TC-04,Not run,N,Agreed
+BR-04,Choice of return method (QR label or store),M,OBJ-01; OBJ-03,P5; P8; W2,US-04,TC-05; TC-06,Not run,N,Agreed
+BR-05,Single return record with status history,M,OBJ-04,P3; W2,US-05,TC-07; TC-18,Not run,N,Agreed
+BR-06,Customer sees status online,M,OBJ-02,P2; W1,US-06,TC-07,Not run,N,Agreed
+BR-07,Status notifications by email / text,S,OBJ-02,P2; W1,US-07,TC-08,Not run,N,Agreed
+BR-08,"Store look-up, accept and refund",M,OBJ-03; OBJ-01,P8; W4,US-08; US-09,TC-09; TC-10,Not run,N,Agreed
+BR-09,Scan label on arrival,M,OBJ-01; OBJ-04,P5; P6; W3,US-10,TC-11,Not run,N,Agreed
+BR-10,Record inspection result and grade,M,OBJ-01; OBJ-04,W3,US-11,TC-12,Not run,N,Agreed
+BR-11,Automatic refund on approval,M,OBJ-01,P4; P7; W4,US-12,TC-13,Not run,N,Agreed
+BR-12,Finance approval over £250 or flagged,M,OBJ-01,W4,US-13,TC-14,Not run,N,Agreed
+BR-13,CS full history and exceptions queue,M,OBJ-02,P2; W2,US-14,TC-15,Not run,N,Agreed
+BR-14,Returns report,S,OBJ-04,W3,US-15,TC-16,Not run,N,Agreed
+BR-15,Exchanges,W,–,W1,–,–,n/a,n/a,Deferred (phase 2)
+NFR-01,99.5% availability,M,–,W2,–,"PT-01 (performance test, not UAT)",Not run,N,Agreed
+NFR-02,Till look-up within 3 seconds,M,OBJ-03,W4,US-08,TC-09,Not run,N,Agreed
+NFR-03,Minimal customer data at till,M,–,DPO review,US-08,TC-09,Not run,N,Agreed
+NFR-04,WCAG 2.2 AA,M,–,Policy,US-01 – US-07,TC-17,Not run,N,Agreed
+NFR-05,Audit log of status changes and refunds,M,–,Finance,US-05; US-12,TC-18,Not run,N,Agreed
+NFR-06,Refund within 14 days of receipt,M,OBJ-01,Legal,US-12,TC-13,Not run,N,Agreed
