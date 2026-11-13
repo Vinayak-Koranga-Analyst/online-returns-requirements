@@ -4,6 +4,8 @@
 
 A requirements pack for moving a UK homeware retailer's returns process from email and phone to a self-service online journey. It follows the documents in my [BA toolkit](https://github.com/Vinayak-Koranga-Analyst/ba-toolkit), from stakeholder analysis through to UAT.
 
+**Case study on my website:** a shorter write-up of this project is at [vinayakkoranga.com](https://vinayakkoranga.com/case-studies/online-returns-requirements/).
+
 ## The business problem
 
 Fernbridge Home sells furniture and homeware through 40 stores and its website. Customers who want to return an online order must email or phone customer services. Returns are tracked in a shared spreadsheet, warehouse and finance teams pass updates by email, and refunds are issued by hand.
